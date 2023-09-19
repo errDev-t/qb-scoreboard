@@ -2,4 +2,4 @@
 this is nice 
 
 
-![image](https://github.com/errDev-t/qb-scoreboard/assets/114163698/38bf622c-ae65-40b3-9a64-43c22cf662b6)
+https://media.discordapp.net/attachments/1128439374426673262/1153755188046344202/image.png?width=347&height=317
