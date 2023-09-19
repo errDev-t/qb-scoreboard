@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v6.2.0/css/pro.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css"/>
+        <link rel="stylesheet" href="./reset.css"/>
+        <title>errQBCore Scoreboard</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="scoreboard-block">
+                <div class="scoreboard-header">
+                  <p>ErrDev</p>
+                </div>
+                <div class="errBiginfo-beam" data-type=${index}>
+                    <div class="info-beam-title" style=" 
+                        left: 1.8vh;
+                        line-height: 3.25vh;">
+                        <p><i class="fas fa-masks-theater"></i> Active Crime</p>
+                    </div>
+                    <div class="info-beam-status"></div>
+                  </div>
+                <div class="scoreboard-info"></div>
+                <div class="scoreboard-feets"></div>
+
+            </div>
+        </div>
+        <script src="./app.js"></script>
+    </body>
+</html>

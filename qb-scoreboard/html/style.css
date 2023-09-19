@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.container {
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.scoreboard-block {
+  display: none;
+  border-radius: 2vh;
+  position: absolute;
+  height: fit-content;
+  width: 36vh;
+  background: transparent;
+  right: 3vh;
+  top: 30vh;
+  margin: 1vh;
+}
+
+.scoreboard-header {
+  border-radius: 0.6vh 0.6vh 0 0;
+  position: relative;
+  width: 100%;
+  height: 3.8vh;
+  background: rgba(0, 0, 0, 0.705);
+  filter: drop-shadow(0 0 0.5vh rgba(0, 0, 0, 0.616));
+  border-bottom: #dc143c 0.4vh solid;
+}
+
+.scoreboard-feets {
+  border-radius: 0 0 0.6vh 0.6vh;
+  position: relative;
+  width: 100%;
+  height: 2.2vh;
+  background: rgba(0, 0, 0, 0.705);
+  filter: drop-shadow(0 0 0.5vh rgba(0, 0, 0, 0.616));
+  border-top: #dc143c 0.4vh solid;
+}
+
+.scoreboard-header > p {
+  font-weight: bold;
+  color: #ededed;
+  padding: 1vh;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6vh;
+  font-weight: bold;
+}
+#status-tab-label {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  right: 3vh;
+  font-weight: bold;
+}
+
+.info-beam-title {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3vh;
+  letter-spacing: 0.1vh;
+  left: 2.8vh;
+  line-height: 2.3vh;
+  font-weight: bold;
+  color: #ededed;
+}
+
+.info-beam-title-players {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3vh;
+  letter-spacing: 0.1vh;
+  left: 1.0vh;
+  line-height: 2.4vh;
+  font-weight: bold;
+  color: #ededed;
+}
+
+.info-beam-status {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  left: 1vh;
+  float: left;
+  text-align: left;
+  line-height: 2.55vh;
+  font-size: 1vh;
+}
+
+
+.info-beam-TextStatus {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  right: 1vh;
+  float: left;
+  text-align: left;
+  line-height: 2.55vh;
+  font-size: 1vh;
+}
+
+.scoreboard-info-beam {
+  margin-top: .1vh;
+  position: relative;
+  height: 2.55vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.562);
+}
+
+.errBiginfo-beam {
+  margin-top: .1vh;
+  position: relative;
+  height: 3.55vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.781);
+}
+
+.fas {
+  color: #ededed;
+}
